@@ -1,0 +1,57 @@
+.navbar
+{
+    width: 100%;
+    margin:0 auto;
+    padding: 12px;
+    position: fixed;
+    border: #13131A;
+    background-color: #FCFCFC;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img
+{
+    padding: 8px;
+}
+
+.navmenu
+{
+    display: flex;
+    padding: 4px;
+}
+
+.navmenu a
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    margin-left: 46px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #13131A;
+    padding: 6px;
+
+    border-radius: 4px;
+
+    transition: 0.2s;
+}
+
+.navmenu a svg
+{
+    margin-right: 8px;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: #13131A;
+    color: #FF7D24;
+}
+
+.navmenu a:hover
+{
+    color: #FF7D24;
+    background-color: #13131A;
+}

@@ -1,0 +1,22 @@
+body
+{
+    background-color: #EFEFEF;
+}
+
+.separacao
+{
+    padding: 1.5cm;
+}
+
+.box-dicas
+{
+    background-color: #F0F0F5;
+
+    display: flex;
+
+    padding: 24px;
+    margin: 16px;
+    border-radius: 8px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,18 @@
+body
+{
+    background-color: #EFEFEF;
+}
+
+.separacao
+{
+    padding: 1.5cm;
+}
+
+.exibir-noticia
+{
+    margin: 16px;
+    font-size: 24px;
+    background-color: #F0F0F5;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}

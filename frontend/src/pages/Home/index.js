@@ -2,8 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FiFileText, FiPlusSquare, FiClipboard, FiCrosshair, FiCompass} from 'react-icons/fi';
 import { FaPaw } from 'react-icons/fa';
-import lockImg from '../../assets/Lockdown.png';
-import './homeStyles.css';
+
+import lockImg from '../../assets/Lockdown100.png';
+import './styles.css';
 
 export default function Home() {
     return(
