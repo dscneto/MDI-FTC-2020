@@ -17,6 +17,19 @@ export default function Prevencao() {
 
             <section className="box-dicas">
                 <img src={ Handstop } alt="Hand"/>
+                <div className="dicas" >
+                    <h1>SIGA AS 5 DICAS</h1>
+                    <p>Ajude a combater o coronavírus</p>
+                    <p>1 <b>MÃOS</b> Lavar frequentemente</p>
+                    <p>2 <b>COTOVELO</b> Usar para cobrir a tosse</p>
+                    <p>3 <b>ROSTO</b> Não tocar</p>
+                    <p>4 <b>ESPAÇO</b> Manter a distância segura</p>
+                    <p>5 <b>CASA</b> Não sair, se possível</p>
+                </div>
+            </section>
+
+            <section className="box-prevencao">
+                <img src={ Handstop } alt="Hand"/>
                 <div>
                     <h1>SIGA AS 5 DICAS</h1>
                     <p>Ajude a combater o coronavírus</p>

@@ -13,6 +13,32 @@ body
     background-color: #F0F0F5;
 
     display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+    padding: 24px;
+    margin: 16px;
+    border-radius: 8px;
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.dicas
+{
+    background-color: #FFF;
+    line-height: 24px;
+    padding: 8px;
+
+    border-radius: 8px;
+
+}
+
+.box-prevencao
+{
+    background-color: #FFF;
+
+    display: flex;
 
     padding: 24px;
     margin: 16px;
