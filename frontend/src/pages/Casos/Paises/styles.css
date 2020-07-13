@@ -1,0 +1,18 @@
+.paises
+{
+    background-color: #EFEFEF;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.linhaPaises
+{
+    margin: auto;
+    display: flex;
+
+}
+
+.pais img
+{
+    width: 50%;
+}

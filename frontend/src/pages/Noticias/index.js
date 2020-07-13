@@ -17,8 +17,8 @@ export default function Noticias() {
             <div className="exibir-noticia">
                 <p>
                     Titulo
-                    Fonte
-                    Texto
+                    Descrição
+                    Publicado em
                     Link
                 </p>       
             </div>

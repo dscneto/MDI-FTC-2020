@@ -1,16 +1,14 @@
-section.barra-navegacao
-{
-    background-color: blue;
-    width: 20%;
-    max-height: 110px;
-    height: 100vh;
-    margin:0 auto;
-
-    display: flex;
-    align-items:  center;
-    justify-content: center;
-}
 body
 {
     background-color: #EFEFEF;
+}
+
+.separacao
+{
+    padding: 1.5cm;
+}
+
+.paises
+{
+    margin: 24px;
 }

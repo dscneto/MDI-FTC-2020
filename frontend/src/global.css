@@ -8,18 +8,31 @@
     box-sizing: border-box;
 }
 
+@media (min-width: 400px) 
+{
+    body
+    {
+        font-size: 18px;
+    }
 
+    input, button, textarea
+    {
+        font: 18px;
+    }
+
+}
 
 body
 {
     font: 400 14px Ubuntu, sans-serif;
+    line-height: 24px;
     background: #EFEFEF;
     -webkit-font-smoothing: antialiased;
 }
 
 input, button, textarea
 {
-    font: 400 18px Ubuntu, sans-serif;    
+    font: 400 14px Ubuntu, sans-serif;    
 }
 
 button

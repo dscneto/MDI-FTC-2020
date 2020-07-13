@@ -4,12 +4,14 @@ import React, { Fragment } from 'react';
 import './styles.css';
 
 import Navbar from '../Nav-bar';
+import Paises from './Paises';
 
 export default function Casos() {
     return(
         <Fragment>
-             <Navbar />
-
+            <Navbar />
+            <div className="separacao" ></div> 
+            <Paises />
         </Fragment>
     );
 }
