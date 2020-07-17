@@ -10,36 +10,17 @@ export default function Noticias() {
         <Fragment>
             <Navbar />
 
-            <div className="separacao">
-
-            </div>
+            <div className="separacao"></div>
 
             <div className="exibir-noticia">
                 <p>
-                    Titulo
-                    Descrição
-                    Publicado em
-                    Link
+                    Titulo:
+                    Descrição:
+                    Publicado em:
+                    Link:
                 </p>       
             </div>
 
-            <div className="exibir-noticia">
-                <p>
-                    Titulo
-                    Fonte
-                    Texto
-                    Link
-                </p>       
-            </div>
-
-            <div className="exibir-noticia">
-                <p>
-                    Titulo
-                    Fonte
-                    Texto
-                    Link
-                </p>       
-            </div>
         </Fragment>
     );
 }

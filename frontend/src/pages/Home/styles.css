@@ -53,4 +53,7 @@
 body
 {
     background-image: url("../../assets/FundoHome.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
