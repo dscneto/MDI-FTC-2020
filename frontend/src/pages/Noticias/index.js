@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import {FiArrowRight} from 'react-icons/fi';
 //import { Link } from 'react-router-dom';
 
 import './styles.css';
@@ -13,12 +14,13 @@ export default function Noticias() {
             <div className="separacao"></div>
 
             <div className="exibir-noticia">
-                <p>
-                    Titulo:
-                    Descrição:
-                    Publicado em:
-                    Link:
-                </p>       
+                <h1 className="titulo">Titulo</h1>
+                <h3 className="descricao">Descrição</h3>
+                <h4 className="fonte">Fonte</h4>
+                <a href="" className="link">
+                    Leia mais 
+                    <FiArrowRight size={16} />
+                    </a>    
             </div>
 
         </Fragment>
